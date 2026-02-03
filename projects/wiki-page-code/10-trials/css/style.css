@@ -10,3 +10,51 @@ body {
 #paragraph-1 {
     color: darkgreen;   
 }
+#trial-2-span-1 {
+    color: #F711F7;
+}
+#trial-2-span-2 {
+    color: #F711F7;
+}
+#trial-3-span-1 {  
+    color: red
+}
+#trial-3-span-2{
+    color:goldenrod
+}
+#trial-3-span-3{
+    color: blue;
+}
+#trial-4-span-1{
+    background-color: skyblue;
+}
+#trial-5-span-1{
+    background-color: yellow;
+}
+#trial-6-span-1{
+    font-weight: bold;
+}
+#trial-6-span-2{
+
+}
+#trial-7-span-1{
+    font-weight: bold;
+}
+#trial-8-span-1{
+    text-decoration: underline;
+}
+#trial-8-span-2{
+    text-decoration: underline;
+}
+#paragraph-9{
+    font-size: 36px;
+}
+#paragraph-10-part-1{
+    font-size: 12px;
+}
+#paragraph-10-part-2{
+    font-size: 48px;    
+}
+#paragraph-10-part-3{
+    font-size: 24px;
+}
