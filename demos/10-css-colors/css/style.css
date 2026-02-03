@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#p-1 {
+    color: rgb(5, 5, 70);
+}
+
+#p-2 {
+    background-color: blue;
+    color: white;
+
+
+
+}
+#s-1{
+    color: white;    
+}
+
+
+#s-2{ 
+background-color: red;
+}

@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#span-1 {
+    font-weight: bold;
+    text-decoration: line-through;
+}
+
+#span-2 {
+    font-style: oblique;
+}
+
+#paragraph-1 {
+     font-size: 20px;
+     text-align:center
+}
+
+#anchor-1 {
+    text-decoration: none;
+    color:darkgreen;
+    cursor: not-allowed;
+}
