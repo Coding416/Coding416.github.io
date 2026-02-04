@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=UnifrakturMaguntia&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+#colored-text{
+    color: blue;
+}
+
+
+.shadowed{
+    background-color: seagreen;
+    margin: 24px;
+    padding: 24px;
+    box-shadow: 4px 4px 4px black;
+}
+
+p{
+    font-family: serif;
+}
