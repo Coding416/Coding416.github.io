@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#container {
+    background-color: darkgrey;
+    width: 500px;
+    min-height: 100vh;
+    font-size: 0px;
+}
+.block {
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    display: inline-block;
+}
+.yellow {
+    background-color: yellow;
+}
+.green {
+    background-color: green;
+}
+.blue {
+    background-color: blue;
+}
+.red {
+    background-color: red;
+}
+.purple {
+    background-color: purple;
+}
