@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+
+.div{
+    margin: 48px;
+    border: 24px;
+    padding: 24px;
+    background-color: 24px;
+}
+

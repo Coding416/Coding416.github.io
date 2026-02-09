@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+p {
+    /* solid dashed dotted outset inset ridge groove; */
+    border: 10px dashed purple;
+    margin: 24px 12px 100px 200px;
+    padding: 24px 36px 100px 200px; 
+    /* border: 10px dashed #9b56b1; */
+    /* border-left: 10px dashed red;
+    border-top-color: 1px inset red; */
+}
+
+div {
+    margin: 48px;
+    border: 10px dashed green;
+    padding: 24px;
+    background-color: lightgreen;
+
+}
