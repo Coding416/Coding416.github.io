@@ -6,45 +6,45 @@ body {
     margin: 0px;
     font-family: sans-serif;
 }
-#morning{
+#morning {
     border: 10px solid yellow;
     background-color: gold;
     margin: 10px;
     padding: 10px;
 }
-#afternoon{
+#afternoon {
     border: 10px solid blue;
-    background-color:skyblue;
+    background-color: skyblue;
     margin: 10px;
     padding: 10px;    
 }
-#evening{
+#evening {
     border: 10px solid green;
     background-color: greenyellow; 
     margin: 10px;
     padding: 10px;   
 }
-#morning .completed{
+#morning .completed {
     text-decoration: line-through;
 }
-#afternoon .completed{
+#afternoon .completed {
     text-decoration: line-through;
 }
-#evening .completed{
+#evening .completed {
     text-decoration: line-through;
 }
-#morning .important{
+#morning .important {
     font-weight: bold;
-    color:blue;
+    color: blue;
 }
-#morning .completed.important{
-    background-color:white;
+#morning .completed.important {
+    background-color: white;
 }
-#afternoon .important{
+#afternoon .important {
     font-weight: bold;
-    color:blueviolet;
+    color: blueviolet;
 }
-#evening .important{
+#evening .important {
     font-weight: bold;
-    color:red
+    color: red;
 }

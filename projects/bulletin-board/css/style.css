@@ -9,7 +9,7 @@
 
 .post-it {
     background-color: yellow;
-    display:inline-block;
+    display: inline-block;
     width: 200px;
     height: 300px;
     font-family: sans-serif;
@@ -17,7 +17,28 @@
     padding: 24px;
     vertical-align: top;
 }
-.orange{
-    background-color:orange;
+.orange {
+    background-color: orange;
 
+}
+.blue {
+    background-color: skyblue;
+}
+.red {
+    background-color: red;
+}
+#steakhouse {
+    width: 150px;
+}
+.purple {
+    background-color: purple;
+}
+#meditation {
+    width: 150px;
+}
+.green {
+    background-color: green;
+}
+#netflix {
+    width: 150px;
 }
