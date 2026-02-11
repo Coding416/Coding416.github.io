@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+#morning{
+    border: 10px solid yellow;
+    background-color: gold;
+    margin: 10px;
+    padding: 10px;
+}
+#afternoon{
+    border: 10px solid blue;
+    background-color:skyblue;
+    margin: 10px;
+    padding: 10px;    
+}
+#evening{
+    border: 10px solid green;
+    background-color: greenyellow; 
+    margin: 10px;
+    padding: 10px;   
+}
+#morning .completed{
+    text-decoration: line-through;
+}
+#afternoon .completed{
+    text-decoration: line-through;
+}
+#evening .completed{
+    text-decoration: line-through;
+}
+#morning .important{
+    font-weight: bold;
+    color:blue;
+}
+#morning .completed.important{
+    background-color:white;
+}
+#afternoon .important{
+    font-weight: bold;
+    color:blueviolet;
+}
+#evening .important{
+    font-weight: bold;
+    color:red
+}

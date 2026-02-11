@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+.button {
+    text-decoration: none;
+    color:black;
+    display: inline-block
+}
+
+.simple{
+    border: 1px solid blue;
+    border-radius: 8px;
+    padding: 8px;
+    margin: 24px;
+    background-color: lightgrey;
+}
+.background{
+    background: darkgreen;
+    color: white;
+    padding: 24px;
+    border-radius: 16px;
+    font-size: 28px;
+    font-weight: bold;
+    margin: 24px;
+}
+.border{
+    color:green;
+    border: 3px solid green;
+    padding: 24px 36px;
+    border-radius: 16px;
+    font-size: 28px;
+    font-weight: bold;
+    margin: 24px;
+}
+
+.same{
+    min-width: 300px;
+    text-align: center;
+}
+
+.wide{
+    display: block;
+    text-align: center;
+}
+#section-3{
+    width: 300px;
+    background-color: 1px solid blue;
+}
+#section-2{
+    color: teal;
+    border-color: teal;
+}
