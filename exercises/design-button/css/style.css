@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+.button {
+    text-decoration: none;
+    color:black;
+    display: inline-block
+}
+
+
+.background{
+    background: purple;
+    color: white;
+    padding: 16px;
+    border-radius: 10px;
+    font-size: 28px;
+    font-weight:lighter ;
+    margin: 20px;
+}
+
