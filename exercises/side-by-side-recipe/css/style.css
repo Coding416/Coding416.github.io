@@ -41,7 +41,7 @@ body {
         font-size: 24px;
     }
 
-    .side-by-side-container{
+    .side-by-side-container {
         flex-direction: column;
         align-items: stretch
     }
@@ -53,11 +53,14 @@ body {
 }
 
 .border{
-    color:green;
-    border: 3px solid green;
+    display: inline-block;
     padding: 24px 36px;
     border-radius: 16px;
     font-size: 28px;
     font-weight: bold;
     margin: 24px;
+}
+.side-by-side-container .image-container,
+.side-by-side-container .image-container {
+    flex: 1;
 }
