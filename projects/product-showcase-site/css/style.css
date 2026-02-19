@@ -16,7 +16,7 @@ body {
     font-family: "Montserrat", sans-serif;
 }
 
-.single-column{
+.single-column {
     max-width: 500px;
     margin-left: auto;
     margin-right: auto;
@@ -32,8 +32,61 @@ body {
     padding: 100px 100px;
     color: black;
 }
-.color-container{
+.color-container {
     background-color: darkblue;
     padding: 100px 100px;
     color: white;
+}
+
+#phone-1 {
+    text-align: center;
+}
+.button-border-background-1 {
+    text-decoration: none;
+    display: inline-block;
+    background: white;
+    color: orange;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 16px;
+    border-radius: 16px;
+    font-size: 28px;
+    font-weight: bold;
+    margin: 24px;
+}
+#phone-2 {
+    text-align: center;
+}
+.button-border-background-2 {
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    background: white;
+    color: darkgray;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 16px;
+    border-radius: 16px;
+    font-size: 28px;
+    font-weight: bold;
+    margin: 24px;
+}
+#phone-3 {
+    text-align: center;
+}
+.button-border-background-3 {
+    text-decoration: none;
+    display: inline-block;
+    background: white;
+    color: darkblue;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 16px;
+    border-radius: 16px;
+    font-size: 28px;
+    font-weight: bold;
+    margin: 24px;
 }
