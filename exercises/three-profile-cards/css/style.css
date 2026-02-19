@@ -13,7 +13,7 @@ body {
     margin: 0px auto;
 }
 
-.card{
+.card {
     border: 5px solid red;
     margin: 36px 0px;
     padding: 36px;
@@ -41,7 +41,7 @@ body {
     padding: 36px;
     text-align: center;
 }
-.button-1{
+.button-1 {
     background: red;
     color: white;
     padding: 24px;
@@ -52,7 +52,7 @@ body {
     display: inline-block;
     text-decoration: none;
 }
-.button-2{
+.button-2 {
     background: red;
     color: white;
     padding: 24px;
@@ -63,7 +63,7 @@ body {
     display: inline-block;
     text-decoration: none;
 }
-.button-3{
+.button-3 {
     background: red;
     color: white;
     padding: 24px;
