@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#layout {
+    max-width: 1200px;
+    margin: 36px auto;
+    display: flex;
+    min-height: 100px;
+    
+}
+
+#thumbnail-column {
+    background-color: lightblue;
+    width: 100px;
+}
+
+#thumbnail-column img{
+    width: 100%;
+}
+#featured-image-column {
+    background-color: aquamarine;
+    flex: 3;  
+}
+
+#product-info-column {
+    background-color: lightcoral;
+    flex: 1;
+    font-size: medium;
+}
+
+#featured-image-column img {
+    width: 100%;
+}
+.button {
+    text-decoration: none;
+    color:black;
+    display: inline-block;
+    margin-left: auto;
+    margin-right:auto
+}
+
+
+.background{
+    background: black;
+    color: white;
+    padding: 10px;
+    border-radius: 16px;
+    font-size: 28px;
+    font-weight: medium;
+    margin: 24px;
+}
+.border{
+    color: black;
+    border: 3px solid black;
+    padding: 24px 36px;
+    border-radius: 16px;
+    font-size: 28px;
+    font-weight: bold;
+    margin: 24px;
+}
+
+.same{
+    min-width: 300px;
+    text-align: center;
+}
+
+.wide{
+    display: block;
+    text-align: center;
+}
+#navbar {
+    background: linear-gradient(135deg,
+     green, darkgreen 
+     );
+     display: flex;
+     justify-content: space-around; 
+     align-items: center;
+}
+#navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+}
+#navbar img {
+    width: 40px;
+}
+
+#navbar #logo-container {
+    margin-right: auto;
+}
+
+#navbar .cta-button {
+    background-color: white;
+    color: black;
+    border-radius: 36px;
+    padding: 16px 24px;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+    margin-right: 24px;
+    margin-left: 24px;
+}
