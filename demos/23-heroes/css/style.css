@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+#centered-hero {
+    background-image: url("../images/pink-haze.jpg");
+    background-size: contain;
+    background-position: center center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-content {
+    color: white;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 72px;
+}
+
+.hero-content h3 {
+    font-size: 36px;
+}
+
+#side-hero {
+    background-image: url(../images/monochrome-edges.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 100px;
+}
+
+#side-hero .hero-content {
+    color: black;
+}
+
+#contrast-hero {
+    background-image: url(../images/blurred-colors.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 100px;
+}
+
+#contrast-hero .hero-content {
+    color: white;
+    background-color: blue;
+    padding: 72px;
+    border-radius: 60px;
+}
+
+#parallax-hero {
+    background-image: url(../images/sharp-blues.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 100px;
+}
