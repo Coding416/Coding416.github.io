@@ -15,8 +15,8 @@ body {
     flex: 1;
 }
 #sidebar-content {
-   /* background-color: lightblue; */
-   /* flex: 1; */
+    /* background-color: lightblue; */
+    /* flex: 1; */
     width: 200px;
     order: 2;
     padding: 18px;
@@ -30,7 +30,7 @@ body {
     font-size: 16px;
 }
 
-#sidebar-content ul{
+#sidebar-content ul {
     background-color: #efefef;
     margin: 0px 0px 36px;
     padding: 0px 12px;
@@ -43,15 +43,14 @@ body {
     color: darkblue;
 }
 
-#sidebar-content li{
+#sidebar-content li {
     padding: 8px 0px;
     border-bottom: 1px solid darkblue;
 }
 /* pseudo-class */
 
-
 #main-content {
-  /*  background-color: lightgreen; */
-  background-color: rgb(220, 220, 220);
-  color: darkblue
+    /*  background-color: lightgreen; */
+    background-color: rgb(220, 220, 220);
+    color: darkblue;
 }
