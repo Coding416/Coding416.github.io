@@ -46,3 +46,17 @@ body {
     margin: 50px auto;
     text-align: center;
 }
+#centered-hero {
+    background-image: url("../images/Tea\ \(7\)_L3.jpg");
+    background-size: contain;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-content {
+    color: white;
+    text-align: center;
+}
