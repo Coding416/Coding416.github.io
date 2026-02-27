@@ -20,7 +20,7 @@ body {
     width: 100px;
 }
 
-#thumbnail-column img{
+#thumbnail-column img {
     width: 100%;
 }
 #featured-image-column {
@@ -39,14 +39,13 @@ body {
 }
 .button {
     text-decoration: none;
-    color:black;
+    color: black;
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
 }
 
-
-.background{
+.background {
     background: black;
     color: white;
     padding: 10px;
@@ -55,7 +54,7 @@ body {
     font-weight: medium;
     margin: 24px;
 }
-.border{
+.border {
     color: black;
     border: 3px solid black;
     padding: 24px 36px;
@@ -65,22 +64,25 @@ body {
     margin: 24px;
 }
 
-.same{
+.same {
     min-width: 300px;
     text-align: center;
 }
 
-.wide{
+.wide {
     display: block;
     text-align: center;
 }
 #navbar {
-    background: linear-gradient(135deg,
-     green, darkgreen 
-     );
-     display: flex;
-     justify-content: space-around; 
-     align-items: center;
+    background: 
+        linear-gradient(
+            135deg,
+            green, darkgreen 
+        );
+
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
 }
 #navbar a {
     text-decoration: none;
