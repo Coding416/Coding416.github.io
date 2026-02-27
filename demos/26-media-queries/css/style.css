@@ -6,60 +6,6 @@ body {
     margin: 0px;
     font-family: sans-serif;
 }
-
-.vertical-masonry-gallery {
-    columns: 3 auto;
-}
-
-.vertical-masonry-gallery img {
-    width: 100%;
-    margin-bottom: 24px;
-}
-
-body {
-    margin: 0px;
-    font-family: sans-serif;
-}
-
-.single-column {
-    background-color: yellow;
-    width: 100%;
-    max-width: 5000px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-/*
-    Page layout setup
-*/
-* {
-    box-sizing: border-box;
-}
-
-body {
-    margin: 0px;
-    font-family: sans-serif;
-}
-
-#layout {
-    max-width: 800px;
-    margin: 50px auto;
-    text-align: center;
-}
-#centered-hero {
-    background-image: url("../images/Tea\ \(7\)_L3.jpg");
-    background-size: contain;
-    background-position: center center;
-    background-attachment: fixed;
-    height: 90vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.hero-content {
-    color: white;
-    text-align: center;
-}
 #nav {
     background-color: black;
     display: flex;

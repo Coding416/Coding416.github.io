@@ -7,6 +7,53 @@ body {
     font-family: sans-serif;
 }
 
+#two-columns {
+    display: flex;
+    margin: 36px auto;
+}
+#main-content {
+    background-color: lightgreen;
+    flex: 1;
+}
+#sidebar-content {
+    /* background-color: lightblue; */
+    /* flex: 1; */
+    width: 200px;
+    order: 2;
+    padding: 18px;
+}
+
+#sidebar-content h2 {
+    background-color: darkslategray;
+    margin: 0px;
+    padding: 12px;
+    color: white;
+    font-size: 16px;
+}
+
+#sidebar-content ul {
+    background-color: #efefef;
+    margin: 0px 0px 36px;
+    padding: 0px 12px;
+    list-style-type: none;
+    border: 1px solid darkslategray;
+    flex: 1;
+}
+
+#sidebar-content a {
+    color: darkslategray;
+}
+
+#sidebar-content li {
+    padding: 8px 0px;
+    border-bottom: 1px solid darkslategray;
+}
+/* pseudo-class */
+
+#main-content {
+    /*  background-color: lightgreen; */
+    background-color: lightgreen;
+}
 .vertical-masonry-gallery {
     columns: 3 auto;
 }
@@ -75,16 +122,6 @@ body {
     padding: 20px;
 }
 
-/* breakpoint */
-@media screen and (max-width: 450px) {
-    body {
-        background-color: firebrick;
-    }
-    #nav {
-       flex-direction: column;
-       align-items: center; 
-    }
-}
 #single-column-layout {
     margin: 48px auto;
 }
@@ -104,9 +141,6 @@ body {
 }
 /* tablet breakpoint */
 @media screen and (max-width: 640px) {
-    /* body {
-        background-color: skyblue;
-    } */
 
     #single-column-layout h1 {
         font-size: 44px;
@@ -114,20 +148,21 @@ body {
     #basic-grid-gallery {
         grid-template-columns: 1fr;
     }
+    .vertical-masonry-gallery {
+        columns: 2 auto;
+    }
 }
 
-/* mobile breakpoint */
+/* breakpoint */
 @media screen and (max-width: 450px) {
-    /* body {
+    body {
         background-color: firebrick;
-    } */
-
+    }
     #nav {
         flex-direction: column;
-        align-items: center;
+        align-items: center; 
     }
-
-    #single-column-layout h1 {
-        font-size: 32px;
+    .vertical-masonry-gallery {
+        columns: 1 auto;
     }
 }
