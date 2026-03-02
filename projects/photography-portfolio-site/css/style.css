@@ -6,6 +6,82 @@ body {
     margin: 0px;
     font-family: sans-serif;
 }
+#navbar {
+    background: 
+        linear-gradient(135deg,darkblue, darkblue);
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+}
+#navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+}
+#navbar img {
+    width: 40px;
+}
+
+#navbar #logo-container {
+    margin-right: auto;
+}
+
+#navbar .cta-button {
+    background-color: white;
+    color: darkblue;
+    border-radius: 36px;
+    padding: 16px 24px;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+    margin-right: 24px;
+    margin-left: 24px;
+}
+#layout {
+    width: 800px;
+    margin: 48px auto;
+    font-size: 24px;  
+}
+#centered-hero {
+    background-image: url(../images/urban-hi-res-1ui7.jpg);
+    background-size: contain;
+    background-position: center center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.hero-content {
+    color: white;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 72px;
+}
+
+.hero-content h3 {
+    font-size: 36px;
+}
+.vertical-masonry-gallery {
+    columns: 3 auto;
+}
+
+.vertical-masonry-gallery img {
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
 #single-column {
     width: 90vw;
     max-width: 1200px;
@@ -82,7 +158,6 @@ body {
 .card p {
     font-size: 24px;
     margin: 24px 0px 0px;
-
 }
 
 #card-container {
@@ -109,4 +184,22 @@ body {
     margin: 10px;
     display: inline-block;
     text-decoration: none;
+}
+.simple {
+    border: 1px solid blue;
+    border-radius: 8px;
+    padding: 8px;
+    margin: 24px;
+    background-color: lightgrey;
+}
+/* breakpoint */
+@media screen and (max-width: 820px) {
+    body {
+        background-color: firebrick;
+    }
+    #navbar {
+        flex-direction: column;
+        align-items: center;
+        grid-template-columns: auto; 
+    }
 }
